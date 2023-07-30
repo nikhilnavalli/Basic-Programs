@@ -1,3 +1,5 @@
+// Java program to calculate factorial of a given number.
+
 import java.util.Scanner;
 
 class SimpleFactorial{
