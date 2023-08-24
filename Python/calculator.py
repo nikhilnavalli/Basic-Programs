@@ -14,12 +14,16 @@ option = input('Please select your option : ')
 
 if(option == '1'):
     print('Addition of '+str(a)+' and '+str(b)+' is : '+str(a+b))
+    # print(f'Addition of {a} and {b} is : {a+b}')
 elif(option == '2'):
     print('Subtraction of '+str(a)+' and '+str(b)+' is : '+str(a-b))
+    # print(f'Subtraction of {a} and {b} is : {a-b}')
 elif(option == '3'):
     print('Multiplication of '+str(a)+' and '+str(b)+' is : '+str(a*b))
+    # print(f'Multiplication of {a} and {b} is : {a*b}')
 elif(option == '4'):
     print('Division of '+str(a)+' and '+str(b)+' is : '+str(a/b))
+    # print(f'Division of {a} and {b} is : {a/b}')
 else:
     print('Invalid option!! Please select a valid option')
 
