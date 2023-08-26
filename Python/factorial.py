@@ -11,6 +11,7 @@ else:
     for i in range(1, n+1):
         fact = fact * i
     print('Factorial of '+str(n)+' is : '+str(fact))
+    # print(f'Factorial of {n} is : {fact}')
 
 
 # Printing result using f string or string literal
