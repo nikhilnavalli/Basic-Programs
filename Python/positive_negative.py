@@ -4,10 +4,13 @@ num = int(input("Enter a number: "))
 
 if num > 0:
    print('Entered number is a positive number.')
+   # print(f'Entered number is a postive number.')
 elif num == 0:
    print('Entered number is zero.')
+   # print(f'Entered number is zero.')
 else:
    print('Entered number is a negative number.')
+   # print(f'Entered number is negative number.')
 
 # Printing the result using f string or string literals
 # print(f'Entered number is a postive number') or print(f'{num} is a positive number')
