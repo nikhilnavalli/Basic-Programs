@@ -8,17 +8,17 @@ class GCD{
 
     System.out.print("Enter first number : ");
     String x = sc.next();
-    int a = Integer.parseInt(x);
+    int m = Integer.parseInt(x);
     System.out.print("Enter second number : ");
     String y = sc.next();
-    int b = Integer.parseInt(y);
+    int n = Integer.parseInt(y);
     
     int g = 1;
 
-    for (int i = 1; i <= a && i <= b; ++i) {
-      if (a % i == 0 && b % i == 0)
+    for (int i = 1; i <= m && i <= n; ++i) {
+      if (m % i == 0 && n % i == 0)
         g = i;
     }
-    System.out.println("GCD of " + a +" and " + b + " is " + g);
+    System.out.println("GCD of " + m +" and " + n + " is " + g);
   }
 }
