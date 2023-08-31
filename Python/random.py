@@ -5,4 +5,5 @@ import random
 start = int(input('Enter the initial range : '))
 end = int(input('Enter the final range : '))
 
-print(random.randint(start,end))
+
+print('The generated random number is : '+random.randint(start,end))
