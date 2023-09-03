@@ -11,3 +11,4 @@ print('Sum of first '+str(n)+' natural numbers is = '+str(sum))
 
 # Another way of printing the result using f string or string literals
 # print(f'Sum of first {n} natural numbers is = {sum}')
+# If you want to print the number also then don't comment the 7th line 
