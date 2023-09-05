@@ -17,3 +17,6 @@ class SumOfFirstN{
         System.out.println("The sum of first "+n+" natural numbers is = "+sum);
     }
 }
+
+// To print the numbers also we can add below line after line 14
+// System.out.println(i);    
