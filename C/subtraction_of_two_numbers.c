@@ -1,4 +1,4 @@
-// C program to calculate subtraction of two integers.
+// C program to calculate difference of two integers.
 
 #include <stdio.h>
 int main() {    
@@ -13,6 +13,6 @@ int main() {
 
     sub = a - b;      
     
-    printf("Sum of %d and %d is = %d", a, b, sub);
+    printf("Difference of %d and %d is = %d", a, b, sub);
     return 0;
 }
