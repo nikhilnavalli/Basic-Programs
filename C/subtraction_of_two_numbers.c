@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main() {    
 
-    int a, b, sum;
+    int a, b, sub;
     
     printf("Enter the fist number : ");
     scanf("%d", &a);
