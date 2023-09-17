@@ -3,16 +3,16 @@
 #include <stdio.h>
 int main() {    
 
-    int number1, number2, div;
+    int a, b, div;
     
     printf("Enter first number : ");
-    scanf("%d", &number1);
+    scanf("%d", &a);
 
     printf("Enter second number : ");
-    scanf("%d", &number2);
+    scanf("%d", &b);
 
-    div = number1 / number2;      
+    div = a / b;      
     
-    printf("Division of %d and %d is = %d", number1, number2, div);
+    printf("Division of %d and %d is = %d", a, b, div);
     return 0;
 }
