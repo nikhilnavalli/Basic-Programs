@@ -11,8 +11,8 @@ int main() {
     printf("Enter the second number : ");
     scanf("%d", &n);
 
-    product = a * b;      
+    product = m * n;      
     
-    printf("Product of %d and %d is = %d", a, b, sub);
+    printf("Product of %d and %d is = %d", m, n, product);
     return 0;
 }
