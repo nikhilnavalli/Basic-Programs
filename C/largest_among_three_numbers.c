@@ -13,7 +13,10 @@ int main(){
     printf("Enter third number : ");
     scanf("%d", &c);
 
-    if(a > b && a > c){
+    if(a == b && b == c){
+        printf("All numbers are equal");
+    }
+    else if(a > b && a > c){
         printf("%d, first number is the largest", a);
     }
     else if(b > a && b > c){
