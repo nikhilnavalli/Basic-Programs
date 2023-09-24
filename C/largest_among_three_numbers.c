@@ -14,7 +14,7 @@ int main(){
     scanf("%d", &c);
 
     if(a == b && b == c){
-        printf("All numbers are equal");
+        printf("First, second and third all numbers are same, so all numbers are equal");
     }
     else if(a > b && a > c){
         printf("%d, first number is the largest", a);
