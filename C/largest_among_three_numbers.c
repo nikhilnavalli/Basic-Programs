@@ -2,28 +2,28 @@
 
 #include<stdio.h>
 int main(){
-    int a, b, c;
+    int num1, num2, num3;
     
     printf("Enter first number : ");
-    scanf("%d", &a);
+    scanf("%d", &num1);
 
     printf("Enter second number : ");
-    scanf("%d", &b);
+    scanf("%d", &num2);
  
     printf("Enter third number : ");
-    scanf("%d", &c);
+    scanf("%d", &num3);
 
-    if(a == b && b == c){
+    if(num1 == num2 && num2 == num3){
         printf("First, second and third all numbers are same, so all numbers are equal");
     }
-    else if(a > b && a > c){
-        printf("%d, first number is the largest", a);
+    else if(num1 > num2 && num1 > num3){
+        printf("%d, first number is the largest", num1);
     }
-    else if(b > a && b > c){
-        printf("%d, second number is the is largest", b);
+    else if(num2 > num1 && num2 > num3){
+        printf("%d, second number is the is largest", num2);
     }
     else{
-        printf("%d, third number is the is largest", c);
+        printf("%d, third number is the is largest", num3);
     }
     return 0;
 }
