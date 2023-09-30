@@ -12,11 +12,12 @@ int main() {
 
   printf("\nBefore swapping first number = %.2f\n", first);
   printf("Before swapping second number = %.2f", second);
-  
+
+  // Assigning the first number / variable value to the temp ( temporary variable).
   temp = first;
-
+  // Asssigning the second number / variable value to the first number / variable.
   first = second;
-
+  // At last asssigning the first number / variable value stored in the temp to the second number / variable.
   second = temp;
 
   printf("\nAfter swapping first number = %.2f\n", first);
