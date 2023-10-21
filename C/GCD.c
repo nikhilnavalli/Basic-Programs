@@ -1,4 +1,4 @@
-// C program to find GCD of two numbers.
+// C program to find GCD (Greatest Common Divisor) of two numbers.
 
 #include <stdio.h>
 int main()
