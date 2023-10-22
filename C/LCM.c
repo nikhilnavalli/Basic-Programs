@@ -1,4 +1,4 @@
-// C program to find the LCM of two numbers.
+// C program to find the LCM (Least Common Multiple) of two numbers.
 
 #include <stdio.h>
 
@@ -19,4 +19,6 @@ int main() {
         }
         ++max;
     }
+
+    return 0;
 }
